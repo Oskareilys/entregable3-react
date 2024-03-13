@@ -1,0 +1,40 @@
+.location{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0.8em;
+    background-color: #062226;
+    padding: 1.5em 2em 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+
+.location__name{
+    text-align: center;
+    color: rgb(66, 185, 66);
+    font-size: 1.8rem;
+    margin-bottom: 0.7em;
+}
+
+.location__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    gap: 1em;
+}
+
+.location__item{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    flex-direction: column;
+}
+
+.location__label{
+    font-weight: 500;
+}
+
+.location__value{
+    color: #999;
+    font-weight: 300;
+}

@@ -1,0 +1,65 @@
+.form{
+
+    display: flex;
+    margin-bottom: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    padding: 1em;
+    margin-top: 10rem;
+    z-index: auto;
+}
+
+.form__input{
+
+    height: 2em;
+    padding: 0.4em 1em;
+    border-radius: 0.5em 0 0 0.5em;
+    border: none;
+    font-size: inherit;
+    z-index: auto;
+}
+
+.form__btn{
+    margin-top: none;
+    font-size: inherit;
+    padding: 0.4em 1em;
+    display: block;
+    height: 110%;
+    border: none;
+    width: 8em;
+    height: 2em;
+    border-radius: 0 0.5em 0.5em 0;
+    background-color: rgb(36, 112, 36);
+    color: whitesmoke;
+    font-weight: 700;
+    &:hover{
+        filter: brightness(1.2);
+    }
+    z-index: 0;
+}
+
+.suggestions {
+
+
+
+    width: 50vh;
+    margin: auto;
+    margin-top: none;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 15px #ddd;
+    border-radius: 10px;
+    margin-top: 1em;
+    max-height: 300px;
+    overflow-y: scroll;
+    color: black;
+    cursor: pointer;
+
+ }
+
+
+  
+  
